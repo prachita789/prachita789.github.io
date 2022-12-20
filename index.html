@@ -5,49 +5,166 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/f141e1b7ac.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="/style.css">
   <title>Prachita</title>
 </head>
 
 <body>
+
   <header class="header">
-    
-      <h3>Prachita Gajbhiye</h3>
-      <nav class="navbar">
+
+    <h3>Prachita Gajbhiye</h3>
+    <nav class="navbar">
       <ul class="menu-list">
-        <li><a  class="nav-link" href="/">Home</a></li>
-        <li><a  class="nav-link" href="/">About Me</a></li>
-        <li><a  class="nav-link" href="/">Skills</a></li>
-        <li><a  class="nav-link" href="/">Project</a></li>
-        <li><a  class="nav-link" href="/">Contact</a></li>
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About Me</a></li>
+        <li><a class="nav-link" href="#skill">Skills</a></li>
+        <li><a class="nav-link" href="#project">Project</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
       </ul>
     </nav>
-    
+
     <div class="menu-btn">
       <ion-icon name="menu-outline" class="icon"></ion-icon>
       <ion-icon name="close-circle-outline" class="icon"></ion-icon>
     </div>
 
   </header>
-<hr>
+  <hr>
 
   <main>
-    <section class="section-main">
+    <div class="section-main">
       <div class="about-me">
-        <div>
-          <img src="./prachita.JPG" class="img" alt="">
-        </div>
-        <div>
-           <p class="para">Hello, my name is</p>
-
-        </div>
+        <img src="./images/prachita.JPG" class="img" alt="">
       </div>
-    </section>
+      <div class="self">
+        <p class="para">Hello, I'm Prachita Gajbhiye.</p>
+        <p class="para">A passionate Developer who loves to create interactive websites.</p>
+        <p>Currently I'm taking training under guidance of Masai School as a Full Stack Web Developer.</p>
+        <a href="https://drive.google.com/file/d/1u2nUm2RYYA_7acWke-AWf-5q5hhomEZ2/view?usp=sharing" download> <button
+            class="btnResume">Resume</button></a>
+      </div>
+    </div>
   </main>
+
+  <!----------------- Skill Section ------------------------->
+
+  <div class="skill">
+    <div>
+      <h1 class="tskill">
+        Skills
+      </h1>
+    </div>
+
+    <div class="icons">
+
+      <img src="./images/html-5.png" alt="html">
+      <img src="./images/css-3.png" alt="css">
+      <img src="./images/js.png" alt="js">
+    </div>
+    <div class="icons">
+      <img src="./images/java.png" alt="java">
+      <img src="./images/mysql.png" alt="sql">
+      <img src="./images/github.png" alt="github">
+    </div>
+  </div>
+
+
+
+  <!------------------------------ project section------------------------>
+  <div class="projects">
+    <h1 class="tskill">Projects</h1>
+    <div class="projectlayout">
+      <div class="project">
+        <div class="images">
+          <img src="./images/pro1.png">
+        </div>
+
+        <div class="name_proj">
+          <span class="text-body">Tomtop</span>
+          <p>Tomtop is an e-commerce platform for RC toys, cell phones, home decor and many more products. Worldwide
+            free shipping.</p>
+        </div>
+        <div class="tech-stack">
+          <p class="stack">Tech Stack: <span class="lang">JavaScript, HTML, CSS</span>
+          </p>
+        </div>
+        <div class="btns">
+          <a href="https://frolicking-sprite-ca94e3.netlify.app/"><button class="deL">Live</button></a>
+          <a href="https://github.com/anubhav4968/TomTopCloneByMasai"><button class="deL">GitHub</button></a>
+        </div>
+
+      </div>
+
+      <div class="project">
+        <div class="images">
+          <img src="./images/proj2.png">
+        </div>
+
+        <div class="name_proj">
+          <span class="text-body">Mamaearth</span>
+          <p>Mamaearth is an Indian company of Health, Wellness & Fitness. It is an online retailer specializing in
+            cosmetics and baby products.</p>
+        </div>
+        <div class="tech-stack">
+          <p class="stack">Tech Stack:<span class="lang"> JavaScript, HTML, CSS</span>
+          </p>
+        </div>
+        <div class="btns">
+          <a href="https://deluxe-beignet-be6844.netlify.app/"><button class="deL">Live</button></a>
+          <a href="https://github.com/prachita789/MamaEarth"><button class="deL">GitHub</button></a>
+        </div>
+
+      </div>
+
+
+      <div class="project">
+
+        <div class="images">
+          <img src="./images/proj3.png">
+        </div>
+
+        <div class="name_proj">
+          <span class="text-body">Asos</span>
+          <p>Asos is a global online fashion and beauty retailer. It offers branded and own label products, including
+            clothing, shoes, bags and accessories for women's and men's.</p>
+        </div>
+
+        <div class="tech-stack">
+          <p class="stack">Tech Stack:<span class="lang"> JavaScript, HTML, CSS</span>
+          </p>
+        </div>
+
+        <div class="btns">
+          <a href="https://voluble-cobbler-b28691.netlify.app/"><button class="deL">Live</button></a>
+          <a href="https://github.com/Elizah7/gullible-pear-795"><button class="deL">GitHub</button></a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!--------------------- Contact Section---------------- -->
+
+  <div class="contact-section">
+    <div class="box1">
+      <div class="details">
+        <h1 class="title">Contact Me</h1>
+        <p><i class="fa-regular fa-envelope"></i>prachitagajbhiye97@gmail.com</p>
+        <p><i class="fa-solid fa-phone">+918208660453</i></p>
+        <div class="social-icon">
+          <a href="/"><i class="fa-brands fa-github"></i></a>
+          <a href="/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </div>
 
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  
+
 </body>
 <script src="/script.js"></script>
 
