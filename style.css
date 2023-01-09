@@ -163,6 +163,15 @@ display: none;
 }
 .btnResume{
     margin-top: 15px;
+    width: 7rem;
+    height: 3rem;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 5px;
+    background-color: #001233;
+    color: #CAC0B3;
+    cursor: pointer;
+    
 }
 
 .text-abt-me{
