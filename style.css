@@ -18,13 +18,13 @@ body {
 
 .header {
     /* border: 2px solid black; */
-    /* background-color: #2779a7; */
-    background-color: #001233;
+    /* background-color: #2779a7 #001233;; */
+    background-color:  #001233; 
     padding: 0 4.8rem;
     height: 5rem;
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     position: fixed;
     top: 0;
@@ -38,6 +38,8 @@ body {
 
 .name {
     font-weight: normal;
+    text-align: left;
+    
 }
 
 
@@ -72,7 +74,7 @@ a {
 .icon {
     width: 2rem;
     height: 4rem;
-    color: #CAC0B3;
+    color:  #FBEAEB ;           /* #CAC0B3; */
     height: 5rem;
     width: 4rem;
 }
@@ -82,7 +84,288 @@ a {
 
 }
 
-@media(max-width:900px) {
+
+
+
+/* ---------------------------About Section---------------------- */
+.section-main {
+    /* border: 1px solid rgb(131, 93, 93); */
+    width: 100%;
+    padding: 9.6rem 0;
+    /* background-color: #755765; */
+    background-color: #CAC0B3;
+    /*/#323232; (#FF595A*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    /* background-image: url("/images/paico-oficial-ZDYN7azwO6c-unsplash.jpg");
+     */
+     /* background-color: white; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+    
+
+}
+
+.img {
+    margin-bottom: 15%;
+    width: 65%;
+    border-radius: 50%;
+
+
+
+}
+
+.self {
+    /* border: 2px solid red; */
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: 1px;
+
+
+
+
+}
+
+.btnResume {
+    margin-top: 35px;
+    width: 7rem;
+    height: 3rem;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 5px;
+    background-color: #001233; 
+    color: #CAC0B3;
+    cursor: pointer;
+    letter-spacing: 2px;
+
+}
+
+.mid{
+    
+}
+.text-abt-me {
+    text-align: center;
+    padding: 2rem;
+    
+    
+}
+
+.abt{
+    text-align: center;
+   font-weight: 500;
+   font-size: 20px;
+  line-height: 30px;
+}
+
+
+/*----------------- Skill Section ------------------ */
+
+.tskill {
+    text-align: center;
+    padding: 10px;
+    padding-top: 35px;
+
+}
+
+.skill {
+    padding: top 55px;
+    /* border: 1px solid red; */
+    margin-top: 25px;
+
+}
+
+.skill>div>img {
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin: auto;
+    cursor: pointer;
+    
+}
+
+.icons img{
+    transition: 1s ease;
+}
+
+.icons img:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+
+}
+
+/* .skill>div>img:hover{
+    background-color: black;
+} */
+
+
+.projectlayout {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-block: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+
+    /* border: 1px solid red; */
+}
+
+.images {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #ffffff;
+    /* border: 1px solid blueviolet; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.name_proj {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    /* border: 1px solid blueviolet; */
+}
+
+.tech-stack {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+}
+.text-body{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.stack{
+    font-size: 20px;
+    
+   
+}
+
+.btns {
+
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    /* border: 1px solid red; */
+    background-color:#ffffff;
+    /* z-index: 1; */
+    justify-content: space-between;
+
+}
+
+.deL{
+   width: 120px;
+   height: 50px;
+   text-align: center;
+   text-transform: uppercase;
+   display: inline-block;
+   font-size: 20px;
+   font-weight: 800;
+   cursor: pointer;
+   border: none;
+   background-color: #001233;
+   border-radius: 10px;
+   -webkit-transition: all .15s ease-in-out;
+   transition: all .15s ease-in-out;
+   color:#CAC0B3;
+}
+
+.deL:hover{
+    /* box-shadow: 0 0 10px 0 #FF595A inset, 0 0 20px 2px #FF595A; */
+  border: 4px solid #FF595A;
+}
+
+.calendar{
+    /* border: 1px solid red; */
+    margin-top: 60px;
+}
+
+.contact-section {
+    /* border: 1px solid red; */
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 50px;
+
+
+}
+
+.tittle {
+    padding: 1rem;
+    text-align: center;
+
+
+}
+.con-details{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    justify-content: center;
+    gap: 15px;
+    font-size: 20px;
+    margin-top: 15px;
+
+}
+
+.fa-solid{
+    color:#001233;
+}
+
+.fa-brands:hover{
+  color: #001233;
+}
+
+.details {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.foot{
+    background-color: #001233;
+    width: 100%;
+    height: 50px;
+}
+.social-icon{
+ line-height: 100px;
+ display: flex;
+ gap: 15px;
+ justify-content: center;
+}
+
+/* media query */
+
+@media screen and (max-width:900px) {
     .menu-btn {
         display: block;
         z-index: 999;
@@ -153,12 +436,7 @@ a {
         margin-top: 12rem;
         margin-left: 145px;
         /* border: 1px solid red; */
-
-
     }
-
-
-
     .btnResume {
         margin-bottom: 4rem;
 
@@ -167,169 +445,6 @@ a {
 
 }
 
-/* ---------------------------About Section---------------------- */
-.section-main {
-    /* border: 1px solid rgb(131, 93, 93); */
-    width: 100%;
-    padding: 9.6rem 0;
-    background-color: #CAC0B3;
-    /*/#323232; (#FF595A*/
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100vh;
+@media only screen and (max-width: 320px){
 
-
-}
-
-.img {
-    margin-bottom: 15%;
-    width: 65%;
-    border-radius: 50%;
-
-
-
-}
-
-.self {
-    /* border: 2px solid red; */
-    text-align: center;
-    padding-top: 55px;
-    padding-bottom: 55px;
-    font-size: 25px;
-    line-height: 40px;
-    letter-spacing: 1px;
-
-
-
-
-}
-
-.btnResume {
-    margin-top: 35px;
-    width: 7rem;
-    height: 3rem;
-    font-size: 20px;
-    font-weight: 800;
-    border-radius: 5px;
-    background-color: #001233;
-    color: #CAC0B3;
-    cursor: pointer;
-    letter-spacing: 2px;
-
-}
-
-.text-abt-me {
-    text-align: center;
-    padding: 5rem;
-}
-
-
-/*----------------- Skill Section ------------------ */
-
-.tskill {
-    text-align: center;
-    padding: 10px;
-    padding-top: 35px;
-
-}
-
-.skill {
-    padding: top 55px;
-
-
-}
-
-.skill>div>img {
-    height: 80px;
-    width: 80px;
-    border-radius: 8px;
-    padding: 10px;
-}
-
-.icons {
-    display: flex;
-    justify-content: center;
-    gap: 35px;
-    margin: auto;
-}
-
-/* .skill>div>img:hover{
-    background-color: black;
-} */
-
-
-.projectlayout {
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    margin-block: 2rem;
-    align-items: center;
-    flex-wrap: wrap;
-
-    /* border: 1px solid red; */
-}
-
-.images {
-    max-width: 100%;
-    display: block;
-    object-fit: cover;
-}
-
-.project {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    overflow: hidden;
-    padding: 10px;
-    /* border: 1px solid blueviolet; */
-
-}
-
-.name_proj {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-}
-
-.tech-stack {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-
-}
-
-.btns {
-
-    padding: 1rem;
-    display: flex;
-    flex-direction: row;
-    gap: 5rem;
-
-}
-
-.contact-section {
-    /* border: 1px solid red; */
-    width: 100%;
-    text-align: center;
-    padding: 1rem;
-
-
-}
-
-.tittle {
-    padding: 1rem;
-    text-align: center;
-
-
-}
-
-.details {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
 }

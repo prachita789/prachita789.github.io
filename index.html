@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/f141e1b7ac.js" crossorigin="anonymous"></script>
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
   <link rel="stylesheet" href="/style.css">
   <title>Prachita </title>
 </head>
@@ -43,7 +46,7 @@
         <p class="para">HI THERE! I'M</p>
         <P class="para">PRACHITA GAJBHIYE</P>
         <p class="para">JAVA BACKEND DEVELOPER</p>
-        
+
         <a href="https://drive.google.com/file/d/1u2nUm2RYYA_7acWke-AWf-5q5hhomEZ2/view?usp=sharing" download> <button
             class="btnResume">Resume</button></a>
       </div>
@@ -51,20 +54,19 @@
   </main>
 
 
-   <!----------------------------- About section ------------------------------>
+  <!----------------------------- About section ------------------------------>
 
 
 
-   <div class="mid">
+  <div class="mid">
     <div class="abt-me">
       <h1 class="text-abt-me">About me</h1>
-      <p class="abt">A passionate Developer who loves to create interactive websites.</p> 
-       <p class="abt">Currently taking trainning under Masai School As a Java Backend Developer</p>
-
     </div>
-       
-        
-   </div>
+    <div class="abt-line">
+      <p class="abt">A passionate Developer who loves to create interactive websites.</p>
+      <p class="abt">Currently taking trainning under Masai School As a Java Backend Developer</p>
+    </div>
+  </div>
 
 
 
@@ -122,7 +124,9 @@
         </div>
         <div class="btns">
           <a href="https://frolicking-sprite-ca94e3.netlify.app/"><button class="deL">Live</button></a>
-          <a href="https://github.com/anubhav4968/TomTopCloneByMasai"><button class="deL">GitHub</button></a>
+          <!-- <i class="fa-solid fa-browser"></i> -->
+          <a href="https://github.com/prachita789/TomTopCloneByMasai"><button class="deL">GitHub</button></a>
+          <!-- <i class="fa-brands fa-github"></i> -->
         </div>
 
       </div>
@@ -138,7 +142,7 @@
             cosmetics and baby products.</p>
         </div>
         <div class="tech-stack">
-          <p class="stack">Tech Stack:<span class="lang"> JavaScript, HTML, CSS</span>
+          <p class="stack">Tech Stack: <span class="lang"> JavaScript, HTML, CSS</span>
           </p>
         </div>
         <div class="btns">
@@ -162,18 +166,25 @@
         </div>
 
         <div class="tech-stack">
-          <p class="stack">Tech Stack:<span class="lang"> JavaScript, HTML, CSS</span>
+          <p class="stack">Tech Stack: <span class="lang"> JavaScript, HTML, CSS</span>
           </p>
         </div>
 
         <div class="btns">
           <a href="https://voluble-cobbler-b28691.netlify.app/"><button class="deL">Live</button></a>
-          <a href="https://github.com/Elizah7/gullible-pear-795"><button class="deL">GitHub</button></a>
+          <a href="https://github.com/prachita789/gullible-pear-795"><button class="deL">GitHub</button></a>
         </div>
 
       </div>
     </div>
   </div>
+
+  <!-- GitHubCalendar -->
+
+  <div class="calendar">
+    <!-- Loading stuff -->
+    Loading the data just for you.
+</div>
 
   <!--------------------- Contact Section---------------- -->
 
@@ -182,8 +193,11 @@
       <div class="details">
         <h1 class="title">Contact Me</h1>
       </div>
+
+      <div class="con-details">
       <p><i class="fa-solid fa-envelope fa-2xl"></i> prachitagajbhiye97@gmail.com</p>
       <p><i class="fa-solid fa-phone fa-xl"></i> +91 8208660453</p>
+       </div>
       <div class="social-icon">
         <a href="https://github.com/prachita789"><i class="fa-brands fa-github fa-2xl"></i></a>
         <a href="https://www.linkedin.com/in/prachita-gajbhiye-645698233/"><i
@@ -195,7 +209,7 @@
   <!-- -----------footer ----------------->
   <footer>
     <div class="foot">
-
+      
     </div>
   </footer>
 
@@ -207,3 +221,13 @@
 <script src="/script.js"></script>
 
 </html>
+
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+<script>
+
+GitHubCalendar(".calendar", "prachita789");
+     
+    GitHubCalendar(".calendar", "prachita789", { responsive: true });
+</script>
